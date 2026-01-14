@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>آفاق - شركة تطوير وبرمجة المواقع</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Dots -->
+    <nav class="slide-nav">
+        <div class="nav-dot active" data-slide="0"></div>
+        <div class="nav-dot" data-slide="1"></div>
+        <div class="nav-dot" data-slide="2"></div>
+        <div class="nav-dot" data-slide="3"></div>
+        <div class="nav-dot" data-slide="4"></div>
+        <div class="nav-dot" data-slide="5"></div>
+        <div class="nav-dot" data-slide="6"></div>
+        <div class="nav-dot" data-slide="7"></div>
+        <div class="nav-dot" data-slide="8"></div>
+        <div class="nav-dot" data-slide="9"></div>
+    </nav>
+
+    <!-- Navigation Arrows -->
+    <button class="nav-arrow nav-prev" aria-label="السابق">
+        <i class="fas fa-chevron-right"></i>
+    </button>
+    <button class="nav-arrow nav-next" aria-label="التالي">
+        <i class="fas fa-chevron-left"></i>
+    </button>
+
+    <!-- Slide Counter -->
+    <div class="slide-counter">
+        <span class="current-slide">1</span> / <span class="total-slides">10</span>
+    </div>
+
+    <!-- Presentation Container -->
+    <div class="presentation">
+        
+        <!-- Slide 1: Cover -->
+        <section class="slide slide-cover active" data-slide="0">
+            <div class="particles"></div>
+            <div class="slide-content">
+                <div class="logo-container animate-float">
+                    <div class="logo-icon">
+                        <i class="fas fa-infinity"></i>
+                    </div>
+                </div>
+                <h1 class="main-title animate-fade-up">آفـــاق</h1>
+                <p class="subtitle animate-fade-up delay-1">شركة تطوير وبرمجة المواقع</p>
+                <div class="tagline animate-fade-up delay-2">
+                    <span class="line"></span>
+                    <span>نصنع حلولاً رقمية بلا حدود</span>
+                    <span class="line"></span>
+                </div>
+                <div class="partners animate-fade-up delay-3">
+                    <div class="partner">
+                        <i class="fas fa-user-tie"></i>
+                        <span>خالد</span>
+                    </div>
+                    <div class="partner-divider">&</div>
+                    <div class="partner">
+                        <i class="fas fa-user-tie"></i>
+                        <span>مصطفى</span>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-footer">
+                <span>اجتماع فريق التسويق</span>
+                <span>2026</span>
+            </div>
+        </section>
+
+        <!-- Slide 2: Who We Are -->
+        <section class="slide slide-about" data-slide="1">
+            <div class="slide-content">
+                <div class="slide-header">
+                    <span class="slide-number">02</span>
+                    <h2 class="slide-title">إحنا مين؟</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-card animate-slide-right">
+                        <div class="card-icon gradient-bg">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>الرؤية</h3>
+                        <p>نسعى لنكون الخيار الأول للشركات في التحول الرقمي</p>
+                    </div>
+                    <div class="about-card animate-slide-up">
+                        <div class="card-icon gradient-bg">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h3>المهمة</h3>
+                        <p>تقديم حلول برمجية مبتكرة تُلبي احتياجات عملائنا</p>
+                    </div>
+                    <div class="about-card animate-slide-left">
+                        <div class="card-icon gradient-bg">
+                            <i class="fas fa-gem"></i>
+                        </div>
+                        <h3>القيم</h3>
+                        <p>الجودة • الإبداع • الالتزام • الشفافية</p>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <i class="fas fa-users"></i>
+                        <span class="stat-number">2</span>
+                        <span class="stat-label">شريك مؤسس</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-code"></i>
+                        <span class="stat-number">+5</span>
+                        <span class="stat-label">خدمات متكاملة</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-heart"></i>
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">شغف وتفاني</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 3: Our Services -->
+        <section class="slide slide-services" data-slide="2">
+            <div class="slide-content">
+                <div class="slide-header">
+                    <span class="slide-number">03</span>
+                    <h2 class="slide-title">خدماتنا</h2>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <h4>موقع تعريفي</h4>
+                        <p>للشركات والمؤسسات</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <h4>موقع شخصي</h4>
+                        <p>Portfolio احترافي</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <h4>متجر إلكتروني</h4>
+                        <p>بيع منتجات أونلاين</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h4>أنظمة إدارة</h4>
+                        <p>ERP • مخزون • HR</p>
+                    </div>
+                    <div class="service-card featured">
+                        <div class="service-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h4>حلول مخصصة</h4>
+                        <p>حسب احتياج العميل</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 4: Problem & Solution -->
+        <section class="slide slide-problem" data-slide="3">
+            <div class="slide-content">
+                <div class="slide-header">
+                    <span class="slide-number">04</span>
+                    <h2 class="slide-title">المشكلة والحل</h2>
+                </div>
+                <div class="problem-solution-container">
+                    <div class="problem-box">
+                        <div class="box-header">
+                            <i class="fas fa-times-circle"></i>
+                            <h3>بدون موقع</h3>
+                        </div>
+                        <ul class="box-list">
+                            <li><i class="fas fa-exclamation-triangle"></i> عملاء بيضيعوا</li>
+                            <li><i class="fas fa-exclamation-triangle"></i> صعب توصل لجمهور أكبر</li>
+                            <li><i class="fas fa-exclamation-triangle"></i> منافسين بيسبقوك</li>
+                            <li><i class="fas fa-exclamation-triangle"></i> مصداقية أقل</li>
+                        </ul>
+                    </div>
+                    <div class="arrow-divider">
+                        <i class="fas fa-arrow-left"></i>
+                    </div>
+                    <div class="solution-box">
+                        <div class="box-header">
+                            <i class="fas fa-check-circle"></i>
+                            <h3>مع آفاق</h3>
+                        </div>
+                        <ul class="box-list">
+                            <li><i class="fas fa-star"></i> تواجد رقمي 24/7</li>
+                            <li><i class="fas fa-star"></i> وصول لعملاء جدد</li>
+                            <li><i class="fas fa-star"></i> صورة احترافية</li>
+                            <li><i class="fas fa-star"></i> أتمتة العمليات</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 5: Market Value -->
+        <section class="slide slide-value" data-slide="4">
+            <div class="slide-content">
+                <div class="slide-header">
+                    <span class="slide-number">05</span>
+                    <h2 class="slide-title">قيمة الشغل ده في السوق</h2>
+                </div>
+                <div class="value-points">
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-fire"></i>
+                        </div>
+                        <div class="value-content">
+                            <h4>المجال مطلوب جداً</h4>
+                            <p>كل بيزنس محتاج تواجد رقمي</p>
+                        </div>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-sync-alt"></i>
+                        </div>
+                        <div class="value-content">
+                            <h4>العميل بيرجع</h4>
+                            <p>تطويرات وإضافات مستمرة</p>
+                        </div>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-coins"></i>
+                        </div>
+                        <div class="value-content">
+                            <h4>عوائد ممتازة</h4>
+                            <p>هامش ربح مُرضي للجميع</p>
+                        </div>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                        <div class="value-content">
+                            <h4>سوق متنامي</h4>
+                            <p>التحول الرقمي في أوجه</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="highlight-box">
+                    <i class="fas fa-lightbulb"></i>
+                    <p>الحلول البرمجية توفر للعميل <strong>وقت</strong> و<strong>فلوس</strong> = قيمة حقيقية</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 6: How We Work -->
+        <section class="slide slide-workflow" data-slide="5">
+            <div class="slide-content">
+                <div class="slide-header">
+                    <span class="slide-number">06</span>
+                    <h2 class="slide-title">طريقة العمل</h2>
+                </div>
+                <div class="workflow-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-number">1</div>
+                        <div class="timeline-content">
+                            <i class="fas fa-comments"></i>
+                            <h4>استماع</h4>
+                            <p>فهم احتياج العميل</p>
+                        </div>
+                    </div>
+                    <div class="timeline-connector"></div>
+                    <div class="timeline-item">
+                        <div class="timeline-number">2</div>
+                        <div class="timeline-content">
+                            <i class="fas fa-pencil-ruler"></i>
+                            <h4>تصميم</h4>
+                            <p>واجهة مستخدم جذابة</p>
+                        </div>
+                    </div>
+                    <div class="timeline-connector"></div>
+                    <div class="timeline-item">
+                        <div class="timeline-number">3</div>
+                        <div class="timeline-content">
+                            <i class="fas fa-code"></i>
+                            <h4>تطوير</h4>
+                            <p>برمجة الموقع</p>
+                        </div>
+                    </div>
+                    <div class="timeline-connector"></div>
+                    <div class="timeline-item">
+                        <div class="timeline-number">4</div>
+                        <div class="timeline-content">
+                            <i class="fas fa-rocket"></i>
+                            <h4>إطلاق</h4>
+                            <p>نشر وتسليم</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="workflow-note">
+                    <i class="fas fa-headset"></i>
+                    <span>+ دعم فني مستمر بعد التسليم</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 7: Marketing Team Role -->
+        <section class="slide slide-marketing" data-slide="6">
+            <div class="slide-content">
+                <div class="slide-header">
+                    <span class="slide-number">07</span>
+                    <h2 class="slide-title">دور فريق التسويق</h2>
+                </div>
+                <div class="marketing-highlight">
+                    <div class="highlight-icon">
+                        <i class="fas fa-hand-sparkles"></i>
+                    </div>
+                    <h3>مش محتاج تكون تقني!</h3>
+                    <p>إحنا بنشتغل الجانب التقني، إنت ركز على العميل</p>
+                </div>
+                <div class="marketing-tasks">
+                    <div class="task-card">
+                        <i class="fas fa-search"></i>
+                        <span>اكتشف العميل المحتاج</span>
+                    </div>
+                    <div class="task-card">
+                        <i class="fas fa-handshake"></i>
+                        <span>قدّم الخدمة</span>
+                    </div>
+                    <div class="task-card">
+                        <i class="fas fa-link"></i>
+                        <span>وصّلنا بالعميل</span>
+                    </div>
+                    <div class="task-card">
+                        <i class="fas fa-money-bill-wave"></i>
+                        <span>اقبض عمولتك</span>
+                    </div>
+                </div>
+                <div class="easy-badge">
+                    <i class="fas fa-thumbs-up"></i>
+                    <span>المجال سهل التسويق لأن كل بيزنس محتاجه!</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 8: How to Start -->
+        <section class="slide slide-start" data-slide="7">
+            <div class="slide-content">
+                <div class="slide-header">
+                    <span class="slide-number">08</span>
+                    <h2 class="slide-title">نبدأ إزاي؟</h2>
+                </div>
+                <div class="steps-container">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <div class="step-icon"><i class="fas fa-bullhorn"></i></div>
+                        <h4>اعرض الخدمة</h4>
+                        <p>لأي صاحب بيزنس تعرفه</p>
+                    </div>
+                    <div class="step-arrow"><i class="fas fa-arrow-left"></i></div>
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <div class="step-icon"><i class="fas fa-clipboard-list"></i></div>
+                        <h4>اجمع المتطلبات</h4>
+                        <p>نوع الموقع والمحتوى</p>
+                    </div>
+                    <div class="step-arrow"><i class="fas fa-arrow-left"></i></div>
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <div class="step-icon"><i class="fas fa-paper-plane"></i></div>
+                        <h4>أرسلها لنا</h4>
+                        <p>ونتولى الباقي</p>
+                    </div>
+                </div>
+                <div class="simple-note">
+                    <div class="note-icon"><i class="fas fa-magic"></i></div>
+                    <p>خطوات بسيطة = نتائج مبهرة</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 9: Why Afaq -->
+        <section class="slide slide-why" data-slide="8">
+            <div class="slide-content">
+                <div class="slide-header">
+                    <span class="slide-number">09</span>
+                    <h2 class="slide-title">ليه آفاق؟</h2>
+                </div>
+                <div class="why-grid">
+                    <div class="why-item">
+                        <div class="why-icon"><i class="fas fa-medal"></i></div>
+                        <h4>جودة عالية</h4>
+                        <p>نلتزم بأعلى المعايير</p>
+                    </div>
+                    <div class="why-item">
+                        <div class="why-icon"><i class="fas fa-clock"></i></div>
+                        <h4>التزام بالمواعيد</h4>
+                        <p>تسليم في الوقت المحدد</p>
+                    </div>
+                    <div class="why-item">
+                        <div class="why-icon"><i class="fas fa-tags"></i></div>
+                        <h4>أسعار منافسة</h4>
+                        <p>قيمة مقابل المال</p>
+                    </div>
+                    <div class="why-item">
+                        <div class="why-icon"><i class="fas fa-headset"></i></div>
+                        <h4>دعم مستمر</h4>
+                        <p>معاك بعد التسليم</p>
+                    </div>
+                    <div class="why-item">
+                        <div class="why-icon"><i class="fas fa-lightbulb"></i></div>
+                        <h4>أفكار إبداعية</h4>
+                        <p>حلول مبتكرة</p>
+                    </div>
+                    <div class="why-item">
+                        <div class="why-icon"><i class="fas fa-shield-alt"></i></div>
+                        <h4>موثوقية</h4>
+                        <p>شريك تقدر تعتمد عليه</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 10: Call To Action -->
+        <section class="slide slide-cta" data-slide="9">
+            <div class="particles"></div>
+            <div class="slide-content">
+                <div class="cta-icon animate-pulse">
+                    <i class="fas fa-handshake"></i>
+                </div>
+                <h2 class="cta-title">جاهزين نبدأ سوا!</h2>
+                <p class="cta-subtitle">انضم لفريق آفاق وابدأ رحلة النجاح</p>
+                <div class="cta-buttons">
+                    <div class="cta-contact">
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>تواصل معانا</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>راسلنا</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cta-slogan">
+                    <span class="line"></span>
+                    <span>آفاق... حيث تبدأ الأفكار وتتحول لواقع</span>
+                    <span class="line"></span>
+                </div>
+                <div class="thank-you">
+                    <h3>شكراً لوقتكم</h3>
+                    <p>خالد & مصطفى</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
